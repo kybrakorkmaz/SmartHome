@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Settings</title>
+    <link rel="stylesheet" href="css/settings.css">
+    <script src="js/settings.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <h1>Room Settings</h1>
+    <div class="main">
+      <div class="left-box">
+        <label><input type="checkbox" id="livingroom" value="livingroom"/>Livingroom</label>
+        <label><input type="checkbox" id="diningroom" value="diningroom"/>Diningroom</label>
+        <label><input type="checkbox" id="bedroom" value="bedroom"/>Bedroom</label>
+        <label><input type="checkbox" id="bathroom" value="bathroom"/>Bathroom</label>
+        <label><input type="checkbox" id="kitchen" value="kitchen"/>Kitchen</label>
+        <label><input type="checkbox" id="rooma" value="rooma"/>roomA</label>
+        <label><input type="checkbox" id="roomb" value="roomb"/>roomB</label>
+      </div>
+      <div class="right-box">
+        <button type="button" name="button" id="buttonTurnOn" onclick="turnOn()">on</button>
+        <button type="button" name="button" id="buttonTurnOff" onclick="turnOff()">off</button>
+        <input type="text" name="" placeholder="Enter value" id="roominput">
+        <button type="button" name="button" onclick="submition()">Submit</button>
+            <p id="message">Not checked</p>
+      </div>
+    </div>
+
+  </body>
+</html>
